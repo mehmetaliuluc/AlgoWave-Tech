@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Products() {
   return (
     <section id="products" className="py-20 bg-white">
@@ -20,7 +18,7 @@ export default function Products() {
                 <h3 className="text-2xl font-bold text-gray-900">BambamSignals.com</h3>
                 <p className="mt-4 text-lg text-gray-600">
                   Our flagship financial analysis and trading tools platform showcasing the power of 
-                  AlgoWave Technology's AI and algorithmic capabilities.
+                  AlgoWave Technology&apos;s AI and algorithmic capabilities.
                 </p>
                 <div className="mt-6">
                   <a 
@@ -45,7 +43,7 @@ export default function Products() {
           
           <div className="mt-12 text-center">
             <p className="text-lg text-gray-600">
-              We're constantly developing new tools and technologies. 
+              We&apos;re constantly developing new tools and technologies. 
               Contact us to learn about our latest projects and custom solutions.
             </p>
           </div>
