@@ -8,7 +8,16 @@ export const metadata: Metadata = {
   title: "AlgoWave Technology - AI-Driven Solutions",
   description: "AlgoWave Technology specializes in AI Consensus Optimization, Reinforcement Learning, algorithms, correlation analysis, similarity finders, and financial tools.",
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      {
+        url: '/favicon.ico',
+        type: 'image/x-icon',
+      },
+      {
+        url: '/favicon.svg',
+        type: 'image/svg+xml',
+      },
+    ],
   },
 };
 
